@@ -10,3 +10,6 @@ RUN . /usr/local/share/nvm/nvm.sh; nvm install lts/*
 #     export DEBIAN_FRONTEND=noninteractive \
 #     apt-get -qy full-upgrade && \
 #     apt-get -qy curl wget
+
+RUN mkdir /workspace && chown -R vscode:vscode /workspace
+USER vscode
