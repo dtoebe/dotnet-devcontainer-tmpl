@@ -5,6 +5,7 @@
     ],
     "service": "dev-env",
     "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {
             "extensions": [
