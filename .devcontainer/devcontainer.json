@@ -1,0 +1,30 @@
+{
+    "name": "Dotnet Dev Container test 01",
+    "dockerComposeFile": [
+        "../docker/docker-compose.yml"
+    ],
+    "service": "dev-env",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "shardulm94.trailing-spaces",
+                "mikestead.dotenv",
+                "fernandoescolar.vscode-solution-explorer",
+                "jmrog.vscode-nuget-package-manager",
+                "patcx.vscode-nuget-gallery",
+                "pkief.material-icon-theme",
+                "formulahendry.dotnet-test-explorer",
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "ms-dotnettools.csdevkit",
+                "streetsidesoftware.code-spell-checker",
+                "ms-azuretools.vscode-docker",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "kevin-chatham.aspnetcorerazor-html-css-class-completion",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
