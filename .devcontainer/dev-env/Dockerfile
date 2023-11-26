@@ -12,4 +12,8 @@ RUN . /usr/local/share/nvm/nvm.sh; nvm install lts/*
 #     apt-get -qy curl wget
 
 RUN mkdir /workspace && chown -R vscode:vscode /workspace
+
+WORKDIR /workspace
+RUN sudo dotnet workload update
+
 USER vscode
