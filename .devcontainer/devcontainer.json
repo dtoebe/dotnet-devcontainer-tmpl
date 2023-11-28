@@ -13,8 +13,6 @@
                 "shardulm94.trailing-spaces",
                 "mikestead.dotenv",
                 "fernandoescolar.vscode-solution-explorer",
-                "jmrog.vscode-nuget-package-manager",
-                "patcx.vscode-nuget-gallery",
                 "pkief.material-icon-theme",
                 "formulahendry.dotnet-test-explorer",
                 "ms-dotnettools.vscode-dotnet-runtime",
@@ -24,6 +22,8 @@
                 "ms-dotnettools.vscodeintellicode-csharp",
                 "kevin-chatham.aspnetcorerazor-html-css-class-completion",
                 "aliasadidev.nugetpackagemanagergui",
+                "cweijan.vscode-postgresql-client2",
+                "humao.rest-client",
                 "redhat.vscode-yaml"
             ]
         }
